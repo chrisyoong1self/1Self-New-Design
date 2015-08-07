@@ -1,0 +1,41 @@
+//**
+// Responsive Styles
+//**
+
+@include responsive($big-break) {
+  // e.g. iPad, tablets, small browsers
+}
+
+
+
+
+
+@include responsive($small-break) {
+  // e.g. iPhone, mobile
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@include responsive($x-small-break) {
+  // e.g. iPhone, mobile
+  body {
+    overflow-x: hidden;
+  }
+
+  .flyout-wrap .flyout-btn {
+  	width:75px;
+  	height:75px;
+  }
+
+  .flyout-wrap {
+  	width:75px;
+  }
+
+  .flyout {
+  	    left: -103px;
+	bottom: 85px;
+  }
+}
+
+
