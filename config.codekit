@@ -576,7 +576,7 @@
 		"outputAbbreviatedPath": "\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"useLibsass": 1
@@ -975,7 +975,7 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "motherplate-master",
+	"displayValue": "New Design Git",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/apple-icon-57x57.png"
 	},
