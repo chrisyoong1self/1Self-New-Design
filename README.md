@@ -1,8 +1,6 @@
-# Motherplate: A Responsive SCSS Boilerplate for Web Designers
+# 1Self new design, development version.
 
-Preview: http://leemunroe.github.io/motherplate/example.html
-
-## What is this?
+<!-- ## What is this?
 This is a bare bones HTML/CSS framework. This is what I'll typically start off most web projects with.
 
 It includes a CSS reset and a bunch of minimal boilerplate styles that should come in useful for any project, including a responsive grid, typography, buttons, icons and forms.
@@ -78,3 +76,4 @@ As your project grows and you need to add more styles just create new .scss file
 * <a href="http://sass-lang.com/">SASS</a>
 * <a href="http://necolas.github.com/normalize.css/">normalize.css</a>
 * <a href="http://fontawesome.io/">Font Awesome</a>
+ -->
