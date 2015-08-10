@@ -23,7 +23,8 @@ $(document).ready(function(){
 
 
   $(".more, .more-back").click(function() {
-  $(".card-container").toggleClass("hover");
+  $(".card-container").first().toggleClass("hover");
+  $(".back").toggleClass("iefix");
   });
 
 
@@ -33,6 +34,15 @@ $(document).ready(function(){
   });
 
 
+// var backOfCard = $('.back').first().detach();
+
+// $(".more").click(function(){
+//     $(".card").append(backOfCard);
+// });
+
+// $(".more-back").click(function(){
+//     $(".card").backOfCard();
+// });
 
 
   

@@ -1,23 +1,45 @@
 //**
-// Responsive Styles
+// mobilefirst Styles
 //**
 
-@include responsive($big-break) {
-  // e.g. iPad, tablets, small browsers
+
+
+@include mobilefirst($big-break) {
+
+  main, header {
+    width: 40%;
+    min-width: 600px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .bottom-menu {
+    padding-top:3%;
+
+    .previous {
+          background-size: 8%;
+    }
+    .next {
+          background-size: 8%;
+    }
+  }
+
+
+
 }
 
 
 
 
 
-@include responsive($small-break) {
+@include mobilefirst($small-break) {
   // e.g. iPhone, mobile
   body {
     overflow-x: hidden;
   }
 }
 
-@include responsive($x-small-break) {
+@include mobilefirst($x-small-break) {
   // e.g. iPhone, mobile
   body {
     overflow-x: hidden;

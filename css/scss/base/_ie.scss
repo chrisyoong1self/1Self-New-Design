@@ -2,11 +2,23 @@
 // IE Fixes If Required
 //**
 
-IE 9, 10, Edge
+// IE 9, 10, Edge
 .lt-ie10 {
 
 
+	.back {
+		display:none;
+	}
+	.back .iefix {
+		display:block;
+	}
 
+	.card {
+		border:1px solid #EEE;
+	}
+	.more {
+		z-index: 999999;
+	}
 	
 }
 

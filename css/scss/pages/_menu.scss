@@ -1,3 +1,18 @@
+// menu overlay
+.overlay {
+    &.open {
+        background: rgba(0, 0, 0, 0.5);
+        transition: background 0.25s ease-in-out;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+    }
+}
+
+
 .menu-wrap {
   width: 100%;
   height: 100%;
@@ -24,8 +39,6 @@
   z-index: 5;
 
 }
-
-
 
 .flyout-wrap .flyout > li {
   position: absolute;

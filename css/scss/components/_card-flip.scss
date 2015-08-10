@@ -4,6 +4,9 @@
     margin: 0 auto;
     border-radius: 4px;
     height: 100%;
+
+
+
 }
 
 .card-container.static:hover .card {
@@ -51,14 +54,20 @@
 .back {
     backface-visibility: hidden;
     position: absolute;
-    top: -14%;
-    left: -5.55%;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
-    width: 111.5%;
-    height: 140.3%;
     transform: rotateY(180deg);
     z-index: 3;
     background-color: #FFF;
     z-index: 0;
     border:10px solid red;
+
+top: -18%;
+    left: -6%;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.14);
+    width: 112%;
+    height: 145%;
+
+
+
+
 }

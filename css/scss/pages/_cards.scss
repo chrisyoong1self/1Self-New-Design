@@ -1,0 +1,107 @@
+// Card Stack
+.headline {
+    height: 35%;
+    padding: 5%;
+    &.rescuetime {
+        border-top: 10px solid $rescuetime;
+    }
+    &.sublime {
+        border-top: 10px solid $sublime;
+    }
+    &.foursquare {
+        border-top: 10px solid $foursquare;
+    }
+}
+
+.service {
+    background: url(../img/rescue-time.svg);
+    width: 100%;
+    background-position: 5% 0;
+    height: 5%;
+    z-index: 6;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.chart {
+    height: 50%;
+    background: #ddd;
+}
+
+.card-menu {
+    height: 10%;
+    // background: blue;
+    .more {
+        float: right;
+        background: url(../img/more.svg);
+        width: 20%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: center;
+        z-index: 6;
+        display: block;
+
+        span {
+            height:100%;
+            width:100%;
+            display:block;
+        }
+    }
+    .more-back {
+        float: right;
+        background: url(../img/back.svg);
+        width: 20%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: center;
+        z-index: 0
+    }
+}
+
+// Card Stack Back
+.back {
+    .headline {
+        height: 30%;
+        padding: 5%;
+    }
+    .chart {
+        height: 50%;
+        // box-shadow: inset 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+    .card-menu {
+        height: 20%;
+    }
+}
+
+.stack li {
+    z-index: 12;
+    &:nth-child(2) {
+        top: -4%; // transform: translate(-4px, -2px) rotate(-1deg);
+        z-index: 11;
+        transform: scale(0.95);
+    }
+    &:nth-child(3) {
+        top: -8%;
+        transform: scale(0.90);
+        z-index: 10; // transform: translate(2px, 2px) rotate(0.4deg);
+    }
+}
+
+.card-count {
+    width: auto;
+    height: auto;
+    position: relative;
+    z-index: -1;
+    float: right;
+    padding-right: 7%;
+    top: 2%;
+    font-size: 120%;
+    color: #333333;
+}
+
+.card-count sup {
+    color: #bbb;
+}

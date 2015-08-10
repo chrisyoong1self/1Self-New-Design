@@ -18,16 +18,13 @@
         border:1px solid #ddd;
         box-sizing: border-box;
         &.in-deck {
-            &:nth-child(3) {
-                top:-2%;
-                width:94%;
-                margin:0 3%;
-            }
             &:nth-child(2) {
-                top:-1%;
-                width:96%;
-                margin:0 2%;
+                top: 4px; transform: translate(-4px, -2px) rotate(-1deg);
             }
+            &:nth-child(3) {
+                top: 2px; transform: translate(2px, 2px) rotate(0.4deg);
+            }
+
         }
     }
     #control {
