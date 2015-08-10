@@ -1,0 +1,23 @@
+.setting-card {
+ 	width: 90%;
+    max-width: 600px;
+    background: white;
+    height: 15%;
+    border: 1px solid #CCC;
+    margin: 0 auto 1em auto;
+    box-shadow: 1px 1px 5px #CCC;
+    padding:10%;
+
+}
+
+.settings main {
+	z-index: 0;
+	overflow:scroll;
+
+}
+
+.settings .service {
+	width:20%;
+	height:90%;
+	background-size:100%;
+}

@@ -42,7 +42,7 @@ $(document).ready(function(){
 
     setTimeout(function(){
          window.location = goTo;
-    }, 350);       
+    }, 550);       
 }); 
 
 
