@@ -4,6 +4,8 @@
 
 
 
+//780px;
+
 @include mobilefirst($big-break) {
 
   main, header {
@@ -14,14 +16,11 @@
   }
 
   .bottom-menu {
-    padding-top:3%;
-
-    .previous {
-          background-size: 8%;
-    }
-    .next {
-          background-size: 8%;
-    }
+    padding-top:4% 0 1% 0;
+    max-width:900px;
+    left: 0;
+    right: 0;
+    margin:0 auto;
   }
 
 
@@ -30,7 +29,7 @@
 
 
 
-
+//480px;
 
 @include mobilefirst($small-break) {
   // e.g. iPhone, mobile
@@ -38,6 +37,8 @@
     overflow-x: hidden;
   }
 }
+
+//320px;
 
 @include mobilefirst($x-small-break) {
   // e.g. iPhone, mobile

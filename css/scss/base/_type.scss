@@ -66,6 +66,7 @@ h5 {
 p {
   margin: 0 0 $padding/2;
   font-family: 'Raleway', sans-serif;
+  font-size:1em;
 }
 
 pre {
@@ -106,42 +107,88 @@ a {
 
 
 
-// Responsive styles if needed
-// @include responsive($big-break) {
+//320px;
+
+// @include mobilefirst($x-small-break) {
+
+//    body {
+//     font-size: 12px;
+//   }
+
+//   h1,
+//   h2,
+//   h3,
+//   h4,
+//   h5 {
+//     margin-bottom: 8px;
+//   }
+
+//   h1 {
+//     font-size: 24px;
+//   }
+
+//   h2 {
+//     font-size: 16px;
+//   }
+
+//   h3 {
+//     font-size: 14px;
+//   }
+
+//   h4,
+//   h5,
+//   p,
+//   ul,
+//   ol {
+//     font-size: 12px;
+//   }
+
 // }
-@include responsive($small-break) {
-  body {
-    font-size: 14px;
-  }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    margin-bottom: 10px;
-  }
 
-  h1 {
-    font-size: 26px;
-  }
+//  @include mobilefirst($small-break) {
+//      body {
+//     font-size: 14px;
+//   }
 
-  h2 {
-    font-size: 18px;
-  }
+//   h1,
+//   h2,
+//   h3,
+//   h4,
+//   h5 {
+//     margin-bottom: 10px;
+//   }
 
-  h3 {
-    font-size: 16px;
-  }
+//   h1 {
+//     font-size: 26px;
+//   }
 
-  h4,
-  h5,
-  p,
-  ul,
-  ol {
-    font-size: 14px;
-  }
-}
+//   h2 {
+//     font-size: 18px;
+//   }
+
+//   h3 {
+//     font-size: 16px;
+//   }
+
+//   h4,
+//   h5,
+//   p,
+//   ul,
+//   ol {
+//     font-size: 14px;
+//   }
+// }
+
+
+
+
+// @include mobilefirst($big-break) {
+
+
+// }
+
+
 
 // Mobile first styles if needed
 // @include mobilefirst($big-break) {
