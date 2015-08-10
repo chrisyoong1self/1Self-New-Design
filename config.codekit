@@ -723,28 +723,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/img\/cat.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 203167,
-		"inputAbbreviatedPath": "\/img\/cat.jpg",
-		"outputAbbreviatedPath": "\/img\/cat.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/cat@2x.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 315584,
-		"inputAbbreviatedPath": "\/img\/cat@2x.jpg",
-		"outputAbbreviatedPath": "\/img\/cat@2x.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/sp.png": {
 		"fileType": 32768,
 		"ignore": 0,
