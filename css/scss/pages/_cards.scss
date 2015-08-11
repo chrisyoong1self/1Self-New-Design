@@ -76,19 +76,20 @@
     }
 }
 
-.stack li {
-    z-index: 12;
-    &:nth-child(2) {
-        top: -4%; // transform: translate(-4px, -2px) rotate(-1deg);
-        z-index: 11;
-        transform: scale(0.95);
-    }
-    &:nth-child(3) {
-        top: -8%;
-        transform: scale(0.90);
-        z-index: 10; // transform: translate(2px, 2px) rotate(0.4deg);
-    }
-}
+// .stack li {
+
+//     &:first-child {
+//         top: -8%;
+//         transform: scale(0.90);
+//     }
+//     &:nth-child(2) {
+//         top: -4%; 
+//         transform: scale(0.95);
+//     }
+//         &:nth-child(3) {
+        
+//     }
+// }
 
 .card-count {
     width: auto;
@@ -104,4 +105,24 @@
 
 .card-count sup {
     color: #bbb;
+}
+
+
+.removed-from-deck {
+
+    animation: card-fade 0.5s ease-out 1 forwards;
+}
+
+
+
+@keyframes card-fade {
+  0% {
+    opacity: 1;
+
+  }
+
+  100% {
+    opacity: 0;
+    display:none;
+  }
 }

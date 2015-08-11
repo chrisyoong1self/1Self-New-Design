@@ -1,5 +1,5 @@
 // Note: See http://blog.garstasio.com/you-dont-need-jquery/ and http://youmightnotneedjquery.com/ for JS commands that don't require jQuery
-$(document).ready(function(){
+
 
 // Menu
 
@@ -23,7 +23,7 @@ $(document).ready(function(){
 
 
   $(".more, .more-back").click(function() {
-  $(".card-container").first().toggleClass("hover");
+  $(".card-container").toggleClass("hover");
   $(".back").toggleClass("iefix");
   });
 
@@ -32,6 +32,9 @@ $(document).ready(function(){
     $(".flyout-btn").toggleClass("btn-rotate");
     $(".overlay").toggleClass("open");
   });
+
+
+  $('.removed-from-deck').delay(1000).remove();
 
 
   $(".flyout").find("a").click(function (e) {
@@ -43,7 +46,9 @@ $(document).ready(function(){
     setTimeout(function(){
          window.location = goTo;
     }, 550);       
-}); 
+});
+
+  
 
 
 // var backOfCard = $('.back').first().detach();
@@ -62,6 +67,6 @@ $(document).ready(function(){
 }).call(this);
 
 
-});
+
 
 

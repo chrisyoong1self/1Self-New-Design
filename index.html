@@ -38,12 +38,15 @@
     <script src="js/modernizr.custom.19789.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+<!--     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"> -->
 
- <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-  <link rel="stylesheet" href="/resources/demos/style.css">
 
+<style>
+    
+    .card-hide {
+        display:none;
+    }
+</style>
 
 </head>
 
@@ -82,108 +85,31 @@
             </div>
         </div>
     </header>
-    <main role="draggable main">
+    <!-- <div class="share-buttons-wrap">
+
+                    <ul class="share-buttons">
+                        <li><a href="#"><span>Item</span></a></li>
+                        <li><a href="#"><span>Item</span></a></li>
+                        <li><a href="#"><span>Item</span></a></li>
+                        <li><a href="#"><span>Item</span></a></li>
+                        <li><a href="#"><span>Item</span></a></li>
+                    </ul>
+               
+</div>
+ -->
+    <main role="main">
         <div id="viewport">
             <ul class="stack">
-                <li>
-                    <div class="card-container manual-flip">
-                        <div class="card ">
-                            <div class="front">
-                                <div class="headline rescuetime">
-                                    <p>6 minutes of your computer time was spent on 'communication and scheduling'.</p>
-                                    <p>This is one of the shortest times.
-                                        <p>
-                                            <p>Thursday 28th July, 2015
-                                                <p>
-                                </div>
-                                <div class="service"></div>
-                                <div class="chart"></div>
-                                <div class="card-menu">
-                                    <div class="more"><a href="#"><span></span></a></div>
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="headline">
-                                    <p>6 minutes of your computer time was spent on 'communication and scheduling'.</p>
-                                    <p>This is one of the shortest times.
-                                        <p>
-                                            <p>Thursday 28th July, 2015
-                                                <p>
-                                </div>
-                                <div class="service"></div>
-                                <div class="chart"></div>
-                                <div class="card-menu">
-                                    <div class="more-back"><a href="#"><span></span></a></div>
-                                </div>
-                            </div>
-                </li>
-                <li>
-                    <div class="card-container manual-flip">
-                        <div class="card ">
-                            <div class="front">
-                                <div class="headline foursquare">
-                                    <p>6 minutes of your computer time was spent on 'communication and scheduling'.</p>
-                                    <p>This is one of the shortest times.
-                                        <p>
-                                            <p>Thursday 28th July, 2015
-                                                <p>
-                                                    <div class="service"></div>
-                                </div>
-                                <div class="chart"></div>
-                                <div class="card-menu">
-                                    <div class="more"><a href="#"><span></span></a></div>
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="headline foursquare">
-                                    <p>6 minutes of your computer time was spent on 'communication and scheduling'.</p>
-                                    <p>This is one of the shortest times.
-                                        <p>
-                                            <p>Thursday 28th July, 2015
-                                                <p>
-                                </div>
-                                <div class="service"></div>
-                                <div class="chart"></div>
-                                <div class="card-menu">
-                                    <div class="more-back"><a href="#"><span></span></a></div>
-                                </div>
-                            </div>
-                </li>
-                <li>
-                    <div class="card-container manual-flip">
-                        <div class="card ">
-                            <div class="front">
-                                <div class="headline sublime">
-                                    <p>6 minutes of your computer time was spent on 'communication and scheduling'.</p>
-                                    <p>This is one of the shortest times.
-                                        <p>
-                                            <p>Thursday 28th July, 2015
-                                                <p>
-                                                    <div class="service"></div>
-                                </div>
-                                <div class="chart"></div>
-                                <div class="card-menu">
-                                    <div class="more"><a href="#"><span></span></a></div>
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="headline">
-                                    <p>6 minutes of your computer time was spent on 'communication and scheduling'.</p>
-                                    <p>This is one of the shortest times.
-                                        <p>
-                                            <p>Thursday 28th July, 2015
-                                                <p>
-                                </div>
-                                <div class="service"></div>
-                                <div class="chart"></div>
-                                <div class="card-menu">
-                                    <div class="more-back"><a href="#"><span></span></a></div>
-                                </div>
-                            </div>
-                </li>
+
+
+
+
+
+
+
             </ul>
             <div class="card-count">03<sup>/20</sup></div>
-            </div>
+        </div>
     </main>
     <footer>
         <div class="wrap">
@@ -209,6 +135,47 @@
             </div>
         </div>
     </footer>
+
+
+<li class="li-template card-hide">
+    <div class="card-container manual-flip">
+    </div>
+</li>
+
+<div class="card-template card top-ten-card bottom-ten-card card-hide">
+    <div class="front">
+        <div class="headline">
+ 
+            <div class="service"></div>
+        </div>
+        <div class="chart">
+            <iframe src="" scrolling="no" class="chart-iframe"></iframe>
+        </div>
+        <div class="card-menu">
+            <div class="more"><a href="#"><span></span></a></div>
+        </div>
+    </div>
+    <div class="back">
+        <div class="headline">
+
+        </div>
+        <div class="service"></div>
+        <div class="chart"></div>
+        <div class="card-menu">
+            <div class="more-back"><a href="#"><span></span></a></div>
+        </div>
+    </div>
+</div>
+
+<div class="card-template card date-card card-hide">
+    <div class="front">
+   xxx
+    </div>
+</div>
+
+
+
+
     <!-- <script type="text/javascript">
     //    function blockMove() {
     //       event.preventDefault() ;
@@ -226,16 +193,25 @@
         nope: 'js/polyfills/svg-to-png-fallback.js',
     }, ]);
     </script>-->
-    <!--      card stack  
-    <script src="js/swing.min.js"></script>
-    <script src="js/classList.js"></script>
-    <script src="js/card-stack.js"></script>-->
+    <!--    card stack   -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
     <script>
     window.jQuery || document.write('<script src="js/jquery-2.1.4.min.js"><\/script>')
     </script>
+    <script src="js/swing.min.js"></script>
+    <script src="js/classList.js"></script>
+    <script src="bower_components/moment/min/moment.min.js"></script>
+    <!-- <script src="js/card-stack.js"></script>
+     <script src="js/collision.jquery.min.js"></script>-->
     <!-- main script -->
     <script src="js/main.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/data-load.js"></script>
+    <script src="js/card-elements.js"></script>
+    <script src="js/build-stack.js"></script>
+
+   
 </body>
 
 </html>
