@@ -15,15 +15,31 @@
         list-style: none;
         background: #fff;
         position: absolute;
-        box-shadow: 0 0 2px rgba(0, 0, 0, .2), 1px 1px 1px rgba(0, 0, 0, .2);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.2),1px 1px 1px rgba(0,0,0,0.2);
         border:1px solid #ddd;
         box-sizing: border-box;
         &.in-deck {
+
+            &:nth-child(1) {
+                top: -20px;
+                width:90%;
+                margin:0 5% 0 5%;
+                // filter: grayscale(1);
+                // filter: blur(2px);
+                // transition: filter 1s;
+                }
             &:nth-child(2) {
-                top: 4px; transform: translate(-4px, -2px) rotate(-1deg);
-            }
+                top: -10px;
+                width:95%;
+                margin:0 2.5% 0 2.5%;
+                // filter: grayscale(1);
+                // filter: blur(1px);
+                // transition: filter 1s;
+                }
             &:nth-child(3) {
-                top: 2px; transform: translate(2px, 2px) rotate(0.4deg);
+                width:100%;
+                // margin:0 auto; 
+                // transition: filter 1s;
             }
 
         }

@@ -26,6 +26,8 @@ header {
     padding: 1.2em;
 }
 
+
+
 main {
     height: 75%;
     padding-top:4%;
@@ -33,7 +35,17 @@ main {
     position: relative;
 }
 
+.headline {
+    height: 40%;
+}
 
+.chart {    
+    height: 50%;
+}
+
+.card-menu {
+    height: 10%;
+}
 
 // Responsive styles if needed
 // @include responsive($big-break) {
