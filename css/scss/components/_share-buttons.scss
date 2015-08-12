@@ -1,19 +1,6 @@
-.hide {
-	display:none;
-}
-
 .share-buttons-wrap {
-	width: 40px;
-    height: auto;
-    position: relative;
-    left: 0;
-    top: -23em;
-    z-index: 6;
-    margin: 0 auto;
-
-	ul {
-		padding:0;
-	}
+	width:100px;
+	height:100px;
 }
 
 .share-buttons {
@@ -100,25 +87,7 @@
 }
 
 
-.zoomIn {
-  -webkit-animation-name: zoomIn;
-  animation-name: zoomIn;
-}
 
-@-webkit-keyframes zoomInDown {
-  from {
-    opacity: 0;
-    -webkit-transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
-    transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
-    -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
-    transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
-    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-  }
+.share-buttons > li:nth-of-type(1) a.clicked span {
+  transform: rotate(-90deg);
 }

@@ -25,11 +25,6 @@
 
 
 
-  .share-buttons-wrap {
-      top: -26em;
-  }
-
-
 }
 
 
@@ -41,24 +36,11 @@
   body {
     overflow-x: hidden;
   }
-
-}
-
-@include mobilefirst($x-small-break) {
-    .headline {
-    padding: 5%;
-    font-size: 150%;
-  }
-
-   header {
-    padding: 1.2em;
-  }
-
 }
 
 //320px;
 
-@include mobilefirst($xx-small-break) {
+@include mobilefirst($x-small-break) {
   // e.g. iPhone, mobile
   body {
     overflow-x: hidden;
@@ -74,22 +56,9 @@
   }
 
   .flyout {
-    left: -103px;
-  	bottom: 85px;
+  	    left: -103px;
+	bottom: 85px;
   }
-
-  .headline {
-  top: -21em;
-  }
-
-
-
-      
-  // .headline {
-  //   padding: 5%;
-  //   font-size: 100%;
-  // }
-
 }
 
 
