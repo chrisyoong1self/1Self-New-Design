@@ -30,7 +30,6 @@
 
   $(".share").click(function() {
     $(".flyout-btn").toggleClass("btn-rotate");
-    $(".share-buttons-wrap").toggleClass("hide zoomIn");
     $(".overlay").toggleClass("open");
   });
 
