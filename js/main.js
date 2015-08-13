@@ -36,6 +36,22 @@
   });
 
 
+  // Settings More
+
+    $(".settings .more").click(function() {
+    $(".setting-card").toggleClass("open");
+  });
+
+
+  $(".share").click(function() {
+    $(".flyout-btn").toggleClass("btn-rotate");
+    $(".share-buttons-wrap").toggleClass("hide zoomIn");
+    $(".overlay").toggleClass("open");
+  });
+
+
+
+
   $('.removed-from-deck').delay(1000).remove();
 
 

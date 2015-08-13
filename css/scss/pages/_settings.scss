@@ -31,6 +31,7 @@
     font-size:80%; 
     overflow: hidden;
     padding: 0.5em;
+    border-bottom: 10px solid white;
     }
 
     .button {
@@ -49,7 +50,12 @@
     background-position: 50% center;
     z-index: 6;
     display: block;
+
     }
+
+.setting-card.open {
+    height:50%;
+}
 
     .rescuetime {
     background: url(../img/service-rescue-time.svg);
