@@ -8,6 +8,7 @@
     $(".flyout-btn").toggleClass("btn-rotate");
     $(".overlay").toggleClass("open");
     $(".flyout").find("a").removeClass();
+    
     return $(".flyout").removeClass("flyout-init fade").toggleClass("expand");
   });
 

@@ -1,6 +1,21 @@
+
+.hide {
+	display:none;
+}
+
 .share-buttons-wrap {
-	width:100px;
-	height:100px;
+		width: 40px;
+    height: auto;
+    position: relative;
+    left: 0;
+    top: -23em;
+    z-index: 6;
+    margin: 0 auto;
+
+    	ul {
+		padding:0;
+	}
+
 }
 
 .share-buttons {

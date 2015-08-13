@@ -2,7 +2,7 @@
 @import "lib/normalize";
 
 // Import fonts from Google
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,700|Raleway:400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,100);
 
 // Set variables and reusable mixins
 @import "base/config";
@@ -23,6 +23,7 @@
 @import "components/card-stack";
 @import "components/card-flip";
 @import "components/share-buttons";
+@import "components/settings-button";
 
 // Use Font Awesome for icons
 // @import "lib/icons";
