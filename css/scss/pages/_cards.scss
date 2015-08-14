@@ -1,6 +1,10 @@
 // Card Stack
 .headline {
-    background: url(../img/quotes.svg), #333a3f;
+    
+    background:
+        linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(125,185,232,0) 100%),
+        url(../img/quotes.svg), 
+        #ff8100;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
@@ -9,6 +13,10 @@
     font-size: 150%;
     line-height: 100%;
     font-weight: 300;
+
+
+
+background: 
 
     // &:after {
     //     background: #333a3f;
@@ -88,7 +96,7 @@
 }
 
 .chart {
-    background: linear-gradient(to bottom, #333a3f 0%, #fff 90%);
+    background: linear-gradient(to bottom, #ff8100 0%, #fff 90%);
     border: 0px;
 }
 
@@ -153,7 +161,7 @@
     z-index: -1;
     // float: right;
     // padding-right: 5%;
-    top: 2%;
+    top: 1%;
     font-size: 120%;
     color: #333333;
     font-family: Verdana;
