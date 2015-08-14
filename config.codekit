@@ -4789,17 +4789,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/img\/background-test.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 71842,
-		"inputAbbreviatedPath": "\/img\/background-test.jpg",
-		"outputAbbreviatedPath": "\/img\/background-test.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,

@@ -15,7 +15,8 @@ body {
 }
 
 body {
-    background:url(../img/background-test.jpg);
+    background: #dcdddc;
+    background: linear-gradient(to bottom, #dadada 0%, #ffffff 50%);
     /* W3C */
     // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dadada', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
