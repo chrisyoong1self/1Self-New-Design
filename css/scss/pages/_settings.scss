@@ -12,6 +12,7 @@
 .settings main {
 	z-index: 1;
 	overflow:scroll;
+    -webkit-overflow-scroll:touch;
     height:75%;
     padding-top:0%;
 }

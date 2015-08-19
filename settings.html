@@ -40,7 +40,7 @@
     <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 </head>
 
-<body>
+<body ontouchmove="blockMove()">
     <!--[if lt IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -222,14 +222,14 @@
                         <li><a href="#"><span>Item</span></a></li>
                     </ul>
                 </div>
-                <div class="bottom-menu">
-                    <div class="previous">
-                        <a href="#"><span></span></a>
-                    </div>
-                    <div class="next">
-                        <a href="#"><span></span></a>
-                    </div>
-                </div>
+               <!-- <div class="bottom-menu">
+    <div class="previous">
+        <a href="#"><span></span></a>
+    </div>
+    <div class="next">
+        <a href="#"><span></span></a>
+    </div>
+</div> -->
             </div>
         </div>
     </footer>
@@ -260,6 +260,7 @@
     </script>
     <!-- main script -->
     <script src="js/main.js"></script>
+    <script src="js/inobounce.js"></script>
 </body>
 
 </html>

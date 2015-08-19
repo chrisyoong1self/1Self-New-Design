@@ -1,0 +1,148 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: #f1f1f1;
+}
+
+h3,
+p {
+    margin: 0;
+}
+
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card {
+    width: 100%;
+    min-width:300px;
+    max-width:400px;
+    height: 450px;
+    background: #FFF;
+    margin: 5% 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.chart {
+    width: 100%;
+    height: auto;
+}
+
+.front {
+    height: 100%;
+}
+
+.headline {
+    height: 40%;
+}
+
+.headline.sublime {
+    border-top: 15px solid #ff8100;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.headline.rescuetime {
+    border-top: 15px solid #a52011;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.headline.foursquare {
+    border-top: 15px solid #fa4778;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.headline h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.headline p {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 0.8em;
+}
+
+.content {
+    width: 90%;
+    height: 90%;
+    padding: 5% 5% 0% 5%; 
+}
+
+.chart {
+    height: 50%;
+}
+
+.card-menu {
+    height: 10%;
+}
+
+.more {}
+
+.back {
+    display: none;
+    background: green;
+}
+
+.date {
+    float: right;
+	padding: 2% 0 0 0;
+}
+
+.card-menu .more {
+    float: right;
+    background: url(../img/more.svg);
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    z-index: 6;
+    display: block;
+}
+
+.card-menu .service.sublime {
+    float: left;
+    background: url(../img/service-sublime.svg);
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: center;
+    z-index: 6;
+    display: block;
+}
+
+.card-menu .service.rescuetime {
+    float: left;
+    background: url(../img/service-rescue-time.svg);
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    z-index: 6;
+    display: block;
+}
+
+.card-menu .service.foursquare {
+    float: left;
+    background: url(../img/service-foursquare.svg);
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
+    z-index: 6;
+    display: block;
+}
+
+
+
+iframe {
+    width: 99%;
+    height: 100%;
+    border: 1px solid #CCC;
+}

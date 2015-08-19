@@ -55,6 +55,9 @@
   $('.removed-from-deck').delay(1000).remove();
 
 
+
+// delay menu swtich to page for animation
+
   $(".flyout").find("a").click(function (e) {
     e.preventDefault();                   // prevent default anchor behavior
     var goTo = this.getAttribute("href"); // store anchor href
@@ -66,7 +69,12 @@
     }, 550);       
 });
 
-  
+ 
+ // ios scroll disable 
+
+   function blockMove() {
+      event.preventDefault() ;
+}
 
 
 // var backOfCard = $('.back').first().detach();
