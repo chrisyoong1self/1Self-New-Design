@@ -9,6 +9,13 @@
     box-shadow: 1px 1px 5px #CCC;
 }
 
+.intro {
+    width:100%;
+    padding:1%;
+
+    h3 {margin:0;}
+}
+
 .settings main {
 	z-index: 1;
 	overflow:scroll;
