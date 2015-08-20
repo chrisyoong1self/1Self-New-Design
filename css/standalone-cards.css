@@ -20,7 +20,7 @@ p {
     max-width:400px;
     height: 450px;
     background: #FFF;
-    margin: 5% 0;
+    margin: 5% auto;
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
 }
